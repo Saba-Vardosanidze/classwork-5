@@ -1,0 +1,16 @@
+.headerContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  height: 55px;
+  margin-bottom: 45px;
+  background-color: #f55a5a;
+  font-family: "inter";
+}
+.headerContainer h2 {
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}

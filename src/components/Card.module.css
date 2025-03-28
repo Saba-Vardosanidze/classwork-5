@@ -1,0 +1,60 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+}
+.mainCardContainer {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+  font-family: "inter";
+}
+.location {
+  display: flex;
+  height: 13px;
+  align-items: center;
+  gap: 12px;
+}
+.location p {
+  font-size: 10px;
+  color: #2b283a;
+}
+.locationName {
+  display: flex;
+  height: 13px;
+  align-items: center;
+  gap: 4px;
+}
+.location a {
+  font-size: 10px;
+  color: #918e9b;
+  transition: 300ms;
+}
+.location a:hover {
+  color: blue;
+}
+.description h2 {
+  height: 40px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 4px;
+  color: #2b283a;
+}
+.data {
+  display: flex;
+  margin-bottom: 9px;
+}
+.data p {
+  font-size: 10px;
+  font-weight: bold;
+  color: #2b283a;
+}
+.locationDescription {
+  width: 326px;
+  font-size: 10px;
+  color: #2b283a;
+  line-height: 150%;
+}
